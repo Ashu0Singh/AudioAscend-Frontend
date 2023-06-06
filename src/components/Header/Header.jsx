@@ -35,7 +35,7 @@ const Header = () => {
                         <li>About</li>
                         <li>Categories</li>
                     </ul>
-                    <div className="center">Watches</div>
+                    <div className="center">Boat</div>
                     <div className="right">
                         <TbSearch onClick={() => setShowSearch(!showSearch)}/>
                         <AiOutlineHeart />
