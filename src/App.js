@@ -15,9 +15,9 @@ function App() {
             <BrowserRouter>
                 <Header />
                 <Routes>
-                    <Route path='/' element={<Home/>}/>
-                    <Route path='/category/:id' element={<Category />}/>
-                    <Route path='/product/:id' element={<SingleProduct/>}/>
+                    <Route path='/E-Commerce/' element={<Home/>}/>
+                    <Route path='/E-Commerce/category/:id' element={<Category />}/>
+                    <Route path='/E-Commerce/product/:id' element={<SingleProduct/>}/>
                 </Routes>
                 <NewsLetter />
                 <Footer />
