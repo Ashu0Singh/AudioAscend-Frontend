@@ -9,10 +9,7 @@ const Footer = () => {
                 <div className="col">
                     <div className="title">About</div>
                     <div className="text">
-                        Voluptatem accusantium doloremque laudantium, totam rem
-                        aperiam, eaque ipsa quae ab illo inventore veritatis et
-                        quasi architecto beatae vitae dicta sunt explicabo eaque
-                        ipsa quae ab illo.
+                        Our commitment to excellence is reflected in every aspect of our platform. From the user-friendly interface to the secure payment options, we prioritize your satisfaction and peace of mind. We strive to create an atmosphere of trust, where you can shop with confidence and find exactly what you're looking for.
                     </div>
                 </div>
                 <div className="col">
@@ -20,8 +17,7 @@ const Footer = () => {
                     <div className="c-item">
                         <FaLocationArrow />
                         <div className="text">
-                            Kayaloram Rd, Punnamada, Kottankulangara, Alappuzha,
-                            Kerala, 688006
+                            Lucknow , Uttar Pradesh 226022
                         </div>
                     </div>
                     <div className="c-item">
@@ -30,7 +26,7 @@ const Footer = () => {
                     </div>
                     <div className="c-item">
                         <FaEnvelope />
-                        <div className="text">Email: store@jsdev.com</div>
+                        <div className="text">Email: ashusingh1417@outlook.com</div>
                     </div>
                 </div>
                 <div className="col">
