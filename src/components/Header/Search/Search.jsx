@@ -34,7 +34,7 @@ const Search = ({setShowSearch}) => {
                             className="search-result-item" 
                             onClick={() => {
                                 setTimeout(() => {
-                                    navigate(`/product/${product.id}`)
+                                    navigate(`/E-Commerce/product/${product.id}`)
                                     setShowSearch(false)
                                 },100)
                             }}

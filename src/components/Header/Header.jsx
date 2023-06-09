@@ -33,11 +33,11 @@ const Header = () => {
             <header className={`main-header ${isScrolled? "sticky-header" : ""}`}>
                 <div className="header-content">
                     <ul className="left">
-                        <li onClick={() => navigate("/")}>Home</li>
+                        <li onClick={() => navigate("/E-Commerce/")}>Home</li>
                         <li>About</li>
                         <li>Categories</li>
                     </ul>
-                    <div className="center" onClick={() => navigate("/")}>Boat</div>
+                    <div className="center" onClick={() => navigate("/E-Commerce/")}>Boat</div>
                     <div className="right">
                         <TbSearch onClick={() => setShowSearch(!showSearch)}/>
                         <AiOutlineHeart />
