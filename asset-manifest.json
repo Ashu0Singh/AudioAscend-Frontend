@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/E-Commerce/static/css/main.5b2e16e3.css",
+    "main.js": "/E-Commerce/static/js/main.c76ffef8.js",
+    "static/media/banner-img.png": "/E-Commerce/static/media/banner-img.0412d66280a0273effa2.png",
+    "static/media/newsletter-bg.jpeg": "/E-Commerce/static/media/newsletter-bg.b6f22313149bdbb35069.jpeg",
+    "index.html": "/E-Commerce/index.html",
+    "main.5b2e16e3.css.map": "/E-Commerce/static/css/main.5b2e16e3.css.map",
+    "main.c76ffef8.js.map": "/E-Commerce/static/js/main.c76ffef8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b2e16e3.css",
+    "static/js/main.c76ffef8.js"
+  ]
+}
