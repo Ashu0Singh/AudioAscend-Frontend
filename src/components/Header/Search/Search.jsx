@@ -34,13 +34,13 @@ const Search = ({setShowSearch}) => {
                             className="search-result-item" 
                             onClick={() => {
                                 setTimeout(() => {
-                                    navigate(`/E-Commerce/product/${product.id}`)
+                                    navigate(`/AudioAscend/product/${product.id}`)
                                     setShowSearch(false)
                                 },100)
                             }}
                         >
                             <div className="image-container ">
-                                <img src={process.env.REACT_APP_DEV_URL + product.attributes.img.data[0].attributes.url} alt="" />
+                                <img src={product.attributes.imgUrl} alt="" />
                             </div>
                             <div className="prod-details">
                                 <div className="name">{product.attributes.title}</div>

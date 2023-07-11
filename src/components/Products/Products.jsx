@@ -1,9 +1,12 @@
 import "./Products.scss";
 import Product from "./Product/Product"
+import { useContext } from "react";
+import { Context } from "../../utils/context";
 
-const Products = ({innerPage, heading , products}) => {
+const Products = ({ innerPage, heading, products }) => {
+    const { productRef } = useContext(Context);
     return (
-        <div className="product-container">
+        <div className="product-container" ref={productRef}>
             {!innerPage && <div className="sec-heading">{heading}</div>}
             <div className="products" >
                 {products?.data?.map(product => {

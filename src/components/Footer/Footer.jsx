@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Footer.scss";
 import { FaLocationArrow, FaMobileAlt, FaEnvelope } from "react-icons/fa";
 import Payment from "../../assets/payments.png";
+import { Context } from "../../utils/context";
+
 const Footer = () => {
+
+    const { aboutRef } = useContext(Context);
+
     return (
-        <div className="footer">
+        <div className="footer" ref={aboutRef}>
             <div className="footer-content">
                 <div className="col">
                     <div className="title">About</div>

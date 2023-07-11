@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: "Cabin", sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

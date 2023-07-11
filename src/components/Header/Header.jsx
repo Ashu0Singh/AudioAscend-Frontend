@@ -1,5 +1,5 @@
 import { useEffect, useState , useContext } from "react";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 import { TbSearch } from "react-icons/tb"
 import { CgShoppingCart } from "react-icons/cg"
@@ -14,6 +14,8 @@ import { Context } from "../../utils/context";
 
 const Header = () => {
     const navigate = useNavigate();
+    const location = useLocation();
+    console.log(location);
     const {cartCount,showCart,setShowCart} = useContext(Context);
 
     const [isScrolled,setIsScrolled] = useState(false);
@@ -33,11 +35,11 @@ const Header = () => {
             <header className={`main-header ${isScrolled? "sticky-header" : ""}`}>
                 <div className="header-content">
                     <ul className="left">
-                        <li onClick={() => navigate("/E-Commerce/")}>Home</li>
-                        <li>About</li>
-                        <li>Categories</li>
+                        <li onClick={() => navigate("/AudioAscend/")}>Home</li>
+                        <li onClick={() => navigate("/AudioAscend/about")}>About</li>
+                        <li onClick={() => navigate("/AudioAscend/categories")}>Categories</li>
                     </ul>
-                    <div className="center" onClick={() => navigate("/E-Commerce/")}>Boat</div>
+                    <div className="center" onClick={() => navigate("/AudioAscend/")}>AudioAscend</div>
                     <div className="right">
                         <TbSearch onClick={() => setShowSearch(!showSearch)}/>
                         <AiOutlineHeart />

@@ -4,9 +4,9 @@ import { useNavigate } from "react-router-dom";
 const Product = ({data , id}) => {
     const navigate = useNavigate();
 
-    return <div className="product-card" onClick={() => navigate(`/E-Commerce/product/${id}`)}>
+    return <div className="product-card" onClick={() => navigate(`/AudioAscend/product/${id}`)}>
         <div className="thumbnail">
-            <img src = {process.env.REACT_APP_DEV_URL+data.img.data[0].attributes.url} alt="" />
+            <img src = {data.imgUrl} alt={data.title} />
         </div>
 
         <div className="product-details">

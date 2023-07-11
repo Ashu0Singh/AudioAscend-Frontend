@@ -15,9 +15,12 @@ function App() {
             <BrowserRouter>
                 <Header />
                 <Routes>
-                    <Route path='/E-Commerce/' element={<Home/>}/>
-                    <Route path='/E-Commerce/category/:id' element={<Category />}/>
-                    <Route path='/E-Commerce/product/:id' element={<SingleProduct/>}/>
+                    <Route path='/AudioAscend/' element={<Home />} />
+                    <Route path='/AudioAscend/about' element={<Home/>}/>
+                    <Route path='/AudioAscend/categories' element={<Home/>}/>
+                    <Route path='/AudioAscend/products' element={<Home/>}/>
+                    <Route path='/AudioAscend/category/:id' element={<Category />}/>
+                    <Route path='/AudioAscend/product/:id' element={<SingleProduct/>}/>
                 </Routes>
                 <NewsLetter />
                 <Footer />
